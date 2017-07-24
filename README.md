@@ -15,7 +15,7 @@ images are stoked into "img" folder"
 "Devis" and "Facture" are storaged in their folder respectually before sending by email"
 Library HTML2PDF is used.
 
-
+To specify your database : param.inc.php
 
 
 
