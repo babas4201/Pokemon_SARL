@@ -1,13 +1,13 @@
 This app has two differents parts
 
---- BD
+-- BD
 
 bd2.sql empty data base
 insert_personne, insert_pokemon and Remplissage_pokemon_lien fill in table pokemon and people
 
 To build the data base with existing data, execute the script "pokemon_placement.sql"
 
---- Website
+-- Website
 
 Here is the website (made to be executed in localhost)
 welcome page is "index.php".
