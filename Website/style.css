@@ -1,0 +1,218 @@
+html{
+    background:linear-gradient(skyblue, white);
+    background-repeat:no-repeat;
+    font-family:Helvetica;
+}
+
+/*page principale*/
+#page{
+    margin-left: auto;
+    margin-right: auto;            
+    width: 800px;
+    height: auto;
+    background:white;
+    border-radius:30px;
+}
+
+/*menu*/
+#menu{
+    background-color:RGB(59,56,56);
+    margin-left:5%;
+    margin-right:5%;
+    border-radius:30px;
+    padding-top:5%;
+}
+
+#menu a{
+    color:white;
+    font-size:20px; 
+    font-weight:bold; 
+    text-decoration:none;
+    border-radius:30px;
+    float:left;
+}
+
+#menu .accueil{
+    padding-left:20%;
+    margin-top:-4%;
+}
+
+#home{
+    width:4%;
+    height:6%;
+    margin-left:-4%;
+    position:absolute;
+    margin-top:-1%;
+}
+
+#menu .compte{
+    margin-left:58.25%;
+    font-weight:bold;
+    font-size:20px; 
+    color:white;
+    width:220px;
+    margin-top:-4%;
+}
+
+#menu .compte2{
+    margin-left:62%;
+    font-weight:bold;
+    font-size:20px; 
+    color:white;
+    width:220px;
+    margin-top:-4%;
+}
+
+#menu .compte3{
+    margin-left:67.75%;
+    font-weight:bold;
+    font-size:20px; 
+    color:white;
+    width:220px;
+    margin-top:-4%;
+}
+
+#utilisateur{
+    width:23%;
+    height:165%;
+    margin-left:-23%;
+    position:absolute;
+    margin-top:-6%;
+}
+
+#utilisateur2{
+    width:3.65%;
+    height:7%;
+    margin-left:-4%;
+    position:absolute;
+    margin-top:-1.45%;
+}
+
+/*partie connexion dans la page d'accueil*/
+#identification, #identification ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+}
+
+#identification li{
+    position:relative;
+    color:RGB(59,56,56);
+    font-size:17px;
+}
+
+#identification ul li{
+    display:inherit;
+}
+
+/*input mail*/
+#identification .lettre{
+    border-radius:5px;
+    color:RGB(59,56,56);
+    margin-left:-10px;
+    margin-top:15px;
+}
+
+/*deroulement du menu au passage de la souris*/
+#identification ul{
+    position:absolute;
+    z-index:1000;
+    max-height:0;
+    overflow:hidden;
+    -moz-transition:.8s all .3s;
+    -webkit-transition:.8s all .3s;
+    transition:.8s all .3s;
+}
+
+#identification li:hover ul{
+    max-height:15em;
+}
+
+/*background des liens menus*/
+#identification li:last-child{
+    background-color:RGB(59,56,56);
+}
+
+/*background des liens sous menus*/
+#identification li:last-child li{
+    background-color:RGB(217,217,217);
+    width:220px;
+}
+
+/*bouton ok pour se connecter*/
+#identification .ok{
+    border-radius:5px;
+    color:RGB(59,56,56);
+    margin-left:-55%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+/*bouton creer un compte*/
+.creer{
+    text-align:center;
+    background-color:RGB(59,56,56);
+    font-weight:bold;
+    color:white;
+    border-radius:5px;
+    font-size:20px;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+
+/*bouton quand utilisateur est soit administrateur soit client*/
+.bouton{
+    border-radius:5px;
+    color:RGB(59,56,56);
+    font-weight:bold;
+    width:70%;
+    margin-top:3%;
+}
+
+/*inscription*/
+.inscrit{
+    margin-left:15%;
+}
+
+li{
+    list-style:none;
+}
+
+label{
+    float:left;
+}
+
+/*liens*/
+a{
+    text-decoration:none;
+    color:red;
+}
+
+table{
+    width:70%;
+}
+
+/*cartes pokémon*/
+.carte{
+    width:22.1%;
+    float:left;
+    border:3px solid;
+    background:linear-gradient(yellow, white);
+    margin:1%;
+    text-align:center;
+    border-radius:5px;
+}
+
+.image{
+    width:100%;		
+}
+
+/*première ligne tableau*/
+.tab{
+    background-color:lightgrey;
+}
+
+th, .case{
+    border:1px solid black;
+}

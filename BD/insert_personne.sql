@@ -1,0 +1,19 @@
+INSERT INTO personne VALUES (DEFAULT, 'DEJ', 'Elodie', 'edej@orange.fr', 'Villars', md5('Admin'));
+INSERT INTO personne VALUES (DEFAULT, 'PLAZA', 'Bastien', 'bastien.plaza@free.fr', 'Bourg', md5('Bastien'));
+INSERT INTO personne VALUES (DEFAULT, 'MARTINS', 'Kévin', 'kevin.martins@me.com', 'Mâcon', md5('Kevin'));
+INSERT INTO personne VALUES (DEFAULT, 'DUCHEMIN', 'Louis', 'louis.duchemin@yahoo.com', 'Breteuil', md5('Louis'));
+INSERT INTO personne VALUES (DEFAULT, 'DUPOND', 'Jacques', 'jacques.dupond@gmail.com', 'Nantes', md5('Jacques'));
+INSERT INTO personne VALUES (DEFAULT, 'PIERRE', 'Elouan', 'elouan.pierre@orange.fr', 'Paris', md5('Elouan'));
+INSERT INTO personne VALUES (DEFAULT, 'CROCHEMONT', 'Isabelle', 'isabelle.crochemont@gmail.com', 'Nancy', md5('Isabelle'));
+INSERT INTO personne VALUES (DEFAULT, 'PRIO', 'Dominique', 'dominique.prio@free.fr', 'Bordeaux', md5('Dominique'));
+INSERT INTO personne VALUES (DEFAULT, 'MARTIN', 'Chantale', 'chantale.martin@me.com', 'Bressuire', md5('Chantale'));
+INSERT INTO personne VALUES (DEFAULT, 'AIR', 'Georges', 'georges.air@free.fr', 'Montpellier', md5('Georges'));
+INSERT INTO personne VALUES (DEFAULT, 'BERNARD', 'Emma', 'emma.bernard@yahoo.com', 'Villeurbanne', md5('Emma'));
+INSERT INTO personne VALUES (DEFAULT, 'ROUX', 'Thomas', 'thomas.roux@gmail.com', 'Lancelebourg', md5('Thomas'));
+INSERT INTO personne VALUES (DEFAULT, 'THOMAS', 'Léa', 'lea.thomas@gmail.com', 'Chamonix', md5('Lea'));
+INSERT INTO personne VALUES (DEFAULT, 'DURAND', 'Amandine', 'amandine.durand@free.fr', 'Grenoble', md5('Amandine'));
+INSERT INTO personne VALUES (DEFAULT, 'PETIT', 'Julie', 'julie.petit@orange.fr', 'Carcassone', md5('Julie'));
+INSERT INTO personne VALUES (DEFAULT, 'DUBOIS', 'Loïc', 'loic.dubois@yahoo.com', 'Toulouse', md5('Loic'));
+INSERT INTO personne VALUES (DEFAULT, 'BLANC', 'Marie', 'marie.blanc@orange.fr', 'Lille', md5('Marie'));
+INSERT INTO personne VALUES (DEFAULT, 'VALETTE', 'Franck', 'franck.valette@free.fr', 'Dunkerque', md5('Franck'));
+
